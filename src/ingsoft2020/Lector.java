@@ -1,5 +1,16 @@
 package ingsoft2020;
 
+import org.xml.sax.SAXException;
+
+import javax.xml.XMLConstants;
+import javax.xml.transform.stream.StreamSource;
+import javax.xml.validation.Schema;
+import javax.xml.validation.SchemaFactory;
+import javax.xml.validation.Validator;
+import java.io.File;
+import java.io.IOException;
+import java.sql.Timestamp;
+
 public class Lector {
 
     private String path_xml;
@@ -31,7 +42,20 @@ public class Lector {
     }
 
     public void validadFichero(String path_xml,String path_xsd){
-        // POR HACER
+        try {
+            SchemaFactory factory =
+                    SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+            Schema schema = factory.newSchema(new File(path_xsd));
+            Validator validator = schema.newValidator();
+            validator.validate(new StreamSource(new File(path_xsd)));
+
+            log.escribrirLog("Lector: Fichero validado con exito.");
+
+        } catch (IOException | SAXException e) {
+            log.escribrirLog("Lector: ERROR al validar el fichero de entrada.");
+            log.escribrirLog("Lector: ruta xsd --> "+path_xsd);
+            log.escribrirLog("Lector: ruta xml --> "+path_xml);
+        }
     }
 
     public String getDatos(){

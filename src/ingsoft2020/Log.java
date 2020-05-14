@@ -1,5 +1,7 @@
 package ingsoft2020;
 
+import java.sql.Timestamp;
+
 public class Log {
 
     private static String log;
@@ -16,7 +18,8 @@ public class Log {
     }
 
     public static void escribrirLog(String comentario){
-        sb.append("\n"+comentario);
+        Timestamp ts = new Timestamp(System.currentTimeMillis());
+        sb.append("\n"+ts.toString()+" - "+comentario);
     }
 
     public static String imprimirLog(){
