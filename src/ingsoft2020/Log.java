@@ -7,18 +7,11 @@ import java.sql.Timestamp;
 
 public class Log {
 
-    private static String log;
-    private static String path_txt;
-    private static StringBuilder sb;
+    private String log;
+    private static String path_txt = "./Logs/";
+    private static StringBuilder sb = new StringBuilder("------ INICIO LOG  ------");
 
     public Log(){
-        sb = new StringBuilder("------ INICIO LOG  ------");
-        this.path_txt = "./Logs/";
-    }
-
-    public Log(String path_txt){
-        sb = new StringBuilder("------ INICIO LOG  ------");
-        this.path_txt = path_txt;
     }
 
     public void escribrirLog(String comentario){
