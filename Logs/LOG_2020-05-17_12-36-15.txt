@@ -1,0 +1,317 @@
+------ INICIO LOG  ------
+2020-05-17 12:36:15.689 - Lector: Inicio de validación.
+2020-05-17 12:36:15.79 - Lector: Fichero validado con exito.
+2020-05-17 12:36:15.79 - Lector: Fin de validación.
+2020-05-17 12:36:15.79 - Lector: Inicio de lectura del fichero xml.
+2020-05-17 12:36:15.79 - Lector: Ruta del fichero xml --> ./DATOS_ENTRADA.xml .
+2020-05-17 12:36:15.825 - Lector: Root element -->Pais
+2020-05-17 12:36:15.829 - Lector: E->2.5  P->2.0  V->50.0  maxDias->30
+2020-05-17 12:36:15.83 - Lector: Comunidad -->Andalucia  Poblacion -->1000
+2020-05-17 12:36:15.831 - Lector: Comunidad -->Madrid  Poblacion -->2000
+2020-05-17 12:36:15.831 - Lector: Creacion de pais dia 0.
+2020-05-17 12:36:15.831 - Lector: Fin de creacion de pais dia 0.
+2020-05-17 12:36:15.831 - Lector: Pais_0 poblacion total       --> 3000
+2020-05-17 12:36:15.831 - Lector: Pais_0 poblacion sana        --> 3000
+2020-05-17 12:36:15.831 - Lector: Pais_0 poblacion infectada   --> 0
+2020-05-17 12:36:15.831 - Lector: Pais_0 porcentaje infectados --> 0%
+2020-05-17 12:36:15.834 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.834 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.834 - Simulador: calcularNdmas1 dia --> 1   maxDias --> 30
+2020-05-17 12:36:15.834 - Simulador: Datos de pais
+2020-05-17 12:36:15.834 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.834 - Simulador: poblacion sana                  --> 3000
+2020-05-17 12:36:15.834 - Simulador: poblacion infectada             --> 0
+2020-05-17 12:36:15.834 - Simulador: poblacion porcentaje infectados --> 0%
+2020-05-17 12:36:15.834 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.835 - Simulador: Aparece el primer infectado.
+2020-05-17 12:36:15.836 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.836 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.836 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.836 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.836 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.836 - Simulador: calcularNdmas1 dia --> 2   maxDias --> 30
+2020-05-17 12:36:15.836 - Simulador: Datos de pais
+2020-05-17 12:36:15.836 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.836 - Simulador: poblacion sana                  --> 2987
+2020-05-17 12:36:15.836 - Simulador: poblacion infectada             --> 13
+2020-05-17 12:36:15.836 - Simulador: poblacion porcentaje infectados --> 0%
+2020-05-17 12:36:15.836 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.836 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.836 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.836 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.836 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.837 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.837 - Simulador: calcularNdmas1 dia --> 3   maxDias --> 30
+2020-05-17 12:36:15.837 - Simulador: Datos de pais
+2020-05-17 12:36:15.837 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.837 - Simulador: poblacion sana                  --> 2972
+2020-05-17 12:36:15.837 - Simulador: poblacion infectada             --> 28
+2020-05-17 12:36:15.837 - Simulador: poblacion porcentaje infectados --> 0%
+2020-05-17 12:36:15.837 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.837 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.837 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.837 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.837 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.837 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.837 - Simulador: calcularNdmas1 dia --> 4   maxDias --> 30
+2020-05-17 12:36:15.837 - Simulador: Datos de pais
+2020-05-17 12:36:15.837 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.837 - Simulador: poblacion sana                  --> 2954
+2020-05-17 12:36:15.837 - Simulador: poblacion infectada             --> 46
+2020-05-17 12:36:15.837 - Simulador: poblacion porcentaje infectados --> 1%
+2020-05-17 12:36:15.837 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.838 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.838 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.838 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.838 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.838 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.838 - Simulador: calcularNdmas1 dia --> 5   maxDias --> 30
+2020-05-17 12:36:15.838 - Simulador: Datos de pais
+2020-05-17 12:36:15.838 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.838 - Simulador: poblacion sana                  --> 2933
+2020-05-17 12:36:15.838 - Simulador: poblacion infectada             --> 67
+2020-05-17 12:36:15.838 - Simulador: poblacion porcentaje infectados --> 2%
+2020-05-17 12:36:15.838 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.838 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.838 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.838 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.838 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.838 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.838 - Simulador: calcularNdmas1 dia --> 6   maxDias --> 30
+2020-05-17 12:36:15.838 - Simulador: Datos de pais
+2020-05-17 12:36:15.838 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.838 - Simulador: poblacion sana                  --> 2908
+2020-05-17 12:36:15.838 - Simulador: poblacion infectada             --> 92
+2020-05-17 12:36:15.838 - Simulador: poblacion porcentaje infectados --> 3%
+2020-05-17 12:36:15.838 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.839 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.839 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.839 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.839 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: calcularNdmas1 dia --> 7   maxDias --> 30
+2020-05-17 12:36:15.839 - Simulador: Datos de pais
+2020-05-17 12:36:15.839 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.839 - Simulador: poblacion sana                  --> 2878
+2020-05-17 12:36:15.839 - Simulador: poblacion infectada             --> 122
+2020-05-17 12:36:15.839 - Simulador: poblacion porcentaje infectados --> 4%
+2020-05-17 12:36:15.839 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.839 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.839 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.839 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.839 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: calcularNdmas1 dia --> 8   maxDias --> 30
+2020-05-17 12:36:15.839 - Simulador: Datos de pais
+2020-05-17 12:36:15.839 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.839 - Simulador: poblacion sana                  --> 2842
+2020-05-17 12:36:15.839 - Simulador: poblacion infectada             --> 158
+2020-05-17 12:36:15.839 - Simulador: poblacion porcentaje infectados --> 5%
+2020-05-17 12:36:15.839 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.839 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.839 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.839 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.839 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: calcularNdmas1 dia --> 9   maxDias --> 30
+2020-05-17 12:36:15.839 - Simulador: Datos de pais
+2020-05-17 12:36:15.839 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.839 - Simulador: poblacion sana                  --> 2798
+2020-05-17 12:36:15.839 - Simulador: poblacion infectada             --> 202
+2020-05-17 12:36:15.839 - Simulador: poblacion porcentaje infectados --> 6%
+2020-05-17 12:36:15.839 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.839 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.839 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.839 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.839 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.839 - Simulador: calcularNdmas1 dia --> 10   maxDias --> 30
+2020-05-17 12:36:15.839 - Simulador: Datos de pais
+2020-05-17 12:36:15.84 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.84 - Simulador: poblacion sana                  --> 2745
+2020-05-17 12:36:15.84 - Simulador: poblacion infectada             --> 255
+2020-05-17 12:36:15.84 - Simulador: poblacion porcentaje infectados --> 8%
+2020-05-17 12:36:15.84 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.84 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.84 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.84 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.84 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.84 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.84 - Simulador: calcularNdmas1 dia --> 11   maxDias --> 30
+2020-05-17 12:36:15.84 - Simulador: Datos de pais
+2020-05-17 12:36:15.84 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.84 - Simulador: poblacion sana                  --> 2680
+2020-05-17 12:36:15.84 - Simulador: poblacion infectada             --> 320
+2020-05-17 12:36:15.84 - Simulador: poblacion porcentaje infectados --> 10%
+2020-05-17 12:36:15.84 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.84 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.84 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.84 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.84 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.84 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.84 - Simulador: calcularNdmas1 dia --> 12   maxDias --> 30
+2020-05-17 12:36:15.84 - Simulador: Datos de pais
+2020-05-17 12:36:15.84 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.84 - Simulador: poblacion sana                  --> 2602
+2020-05-17 12:36:15.84 - Simulador: poblacion infectada             --> 398
+2020-05-17 12:36:15.84 - Simulador: poblacion porcentaje infectados --> 13%
+2020-05-17 12:36:15.84 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.84 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.84 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.84 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.84 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.84 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.84 - Simulador: calcularNdmas1 dia --> 13   maxDias --> 30
+2020-05-17 12:36:15.84 - Simulador: Datos de pais
+2020-05-17 12:36:15.846 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.846 - Simulador: poblacion sana                  --> 2507
+2020-05-17 12:36:15.846 - Simulador: poblacion infectada             --> 493
+2020-05-17 12:36:15.846 - Simulador: poblacion porcentaje infectados --> 16%
+2020-05-17 12:36:15.846 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.846 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.846 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.846 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.846 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.846 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.846 - Simulador: calcularNdmas1 dia --> 14   maxDias --> 30
+2020-05-17 12:36:15.846 - Simulador: Datos de pais
+2020-05-17 12:36:15.846 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.846 - Simulador: poblacion sana                  --> 2391
+2020-05-17 12:36:15.846 - Simulador: poblacion infectada             --> 609
+2020-05-17 12:36:15.846 - Simulador: poblacion porcentaje infectados --> 20%
+2020-05-17 12:36:15.846 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.846 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.846 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.846 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.846 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.847 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.847 - Simulador: calcularNdmas1 dia --> 15   maxDias --> 30
+2020-05-17 12:36:15.847 - Simulador: Datos de pais
+2020-05-17 12:36:15.847 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.847 - Simulador: poblacion sana                  --> 2249
+2020-05-17 12:36:15.847 - Simulador: poblacion infectada             --> 751
+2020-05-17 12:36:15.847 - Simulador: poblacion porcentaje infectados --> 25%
+2020-05-17 12:36:15.847 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.847 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.847 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.847 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.847 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.847 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.847 - Simulador: calcularNdmas1 dia --> 16   maxDias --> 30
+2020-05-17 12:36:15.847 - Simulador: Datos de pais
+2020-05-17 12:36:15.847 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.847 - Simulador: poblacion sana                  --> 2075
+2020-05-17 12:36:15.847 - Simulador: poblacion infectada             --> 925
+2020-05-17 12:36:15.847 - Simulador: poblacion porcentaje infectados --> 30%
+2020-05-17 12:36:15.847 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.847 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.847 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.847 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.847 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.847 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.847 - Simulador: calcularNdmas1 dia --> 17   maxDias --> 30
+2020-05-17 12:36:15.847 - Simulador: Datos de pais
+2020-05-17 12:36:15.847 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.847 - Simulador: poblacion sana                  --> 1861
+2020-05-17 12:36:15.847 - Simulador: poblacion infectada             --> 1139
+2020-05-17 12:36:15.847 - Simulador: poblacion porcentaje infectados --> 37%
+2020-05-17 12:36:15.848 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.848 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.848 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.848 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.848 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.848 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.848 - Simulador: calcularNdmas1 dia --> 18   maxDias --> 30
+2020-05-17 12:36:15.848 - Simulador: Datos de pais
+2020-05-17 12:36:15.848 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.848 - Simulador: poblacion sana                  --> 1686
+2020-05-17 12:36:15.848 - Simulador: poblacion infectada             --> 1314
+2020-05-17 12:36:15.848 - Simulador: poblacion porcentaje infectados --> 43%
+2020-05-17 12:36:15.848 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.848 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.848 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.848 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.848 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.848 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.848 - Simulador: calcularNdmas1 dia --> 19   maxDias --> 30
+2020-05-17 12:36:15.848 - Simulador: Datos de pais
+2020-05-17 12:36:15.848 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.849 - Simulador: poblacion sana                  --> 1430
+2020-05-17 12:36:15.849 - Simulador: poblacion infectada             --> 1570
+2020-05-17 12:36:15.849 - Simulador: poblacion porcentaje infectados --> 52%
+2020-05-17 12:36:15.849 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.849 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.849 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.849 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.849 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.849 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.849 - Simulador: calcularNdmas1 dia --> 20   maxDias --> 30
+2020-05-17 12:36:15.849 - Simulador: Datos de pais
+2020-05-17 12:36:15.849 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.849 - Simulador: poblacion sana                  --> 1174
+2020-05-17 12:36:15.849 - Simulador: poblacion infectada             --> 1826
+2020-05-17 12:36:15.849 - Simulador: poblacion porcentaje infectados --> 60%
+2020-05-17 12:36:15.849 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.849 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.849 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.849 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.85 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: calcularNdmas1 dia --> 21   maxDias --> 30
+2020-05-17 12:36:15.85 - Simulador: Datos de pais
+2020-05-17 12:36:15.85 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.85 - Simulador: poblacion sana                  --> 918
+2020-05-17 12:36:15.85 - Simulador: poblacion infectada             --> 2082
+2020-05-17 12:36:15.85 - Simulador: poblacion porcentaje infectados --> 69%
+2020-05-17 12:36:15.85 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.85 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.85 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.85 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.85 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: calcularNdmas1 dia --> 22   maxDias --> 30
+2020-05-17 12:36:15.85 - Simulador: Datos de pais
+2020-05-17 12:36:15.85 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.85 - Simulador: poblacion sana                  --> 662
+2020-05-17 12:36:15.85 - Simulador: poblacion infectada             --> 2338
+2020-05-17 12:36:15.85 - Simulador: poblacion porcentaje infectados --> 77%
+2020-05-17 12:36:15.85 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.85 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.85 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.85 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.85 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: calcularNdmas1 dia --> 23   maxDias --> 30
+2020-05-17 12:36:15.85 - Simulador: Datos de pais
+2020-05-17 12:36:15.85 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.85 - Simulador: poblacion sana                  --> 406
+2020-05-17 12:36:15.85 - Simulador: poblacion infectada             --> 2594
+2020-05-17 12:36:15.85 - Simulador: poblacion porcentaje infectados --> 86%
+2020-05-17 12:36:15.85 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.85 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.85 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.85 - Simulador: Llamada recursiva para calcular siguiente dia.
+2020-05-17 12:36:15.85 - Simulador: Se inicia calculo de infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: Se han calculado infectados por viajeros.
+2020-05-17 12:36:15.85 - Simulador: calcularNdmas1 dia --> 24   maxDias --> 30
+2020-05-17 12:36:15.85 - Simulador: Datos de pais
+2020-05-17 12:36:15.85 - Simulador: poblacion total                 --> 3000
+2020-05-17 12:36:15.851 - Simulador: poblacion sana                  --> 150
+2020-05-17 12:36:15.851 - Simulador: poblacion infectada             --> 2850
+2020-05-17 12:36:15.851 - Simulador: poblacion porcentaje infectados --> 95%
+2020-05-17 12:36:15.851 - Simulador: Se ha creado pais_dmas1.
+2020-05-17 12:36:15.851 - Simulador: Calculos de comunidad realizados.
+2020-05-17 12:36:15.851 - Simulador: Calculos de pais_dmas1 realizados.
+2020-05-17 12:36:15.851 - Simulador: Fin de calculos.
+2020-05-17 12:36:15.852 - Impresora: Inicio de creacion de contenido.
+2020-05-17 12:36:15.852 - Impresora: Inicio tabla pais.
+2020-05-17 12:36:15.852 - Impresora: Fin tabla pais e inicio tablas comunidad.
+2020-05-17 12:36:15.852 - Impresora: Inicio comunidad --> Andalucia
+2020-05-17 12:36:15.852 - Impresora: Fin comunidad --> Andalucia
+2020-05-17 12:36:15.852 - Impresora: Inicio comunidad --> Madrid
+2020-05-17 12:36:15.852 - Impresora: Fin comunidad --> Madrid
+2020-05-17 12:36:15.852 - Impresora: Fin creacion contenido.
+2020-05-17 12:36:15.852 - Impresora: Inicio de la impresión.
+2020-05-17 12:36:15.859 - Impresora: Datos imprimidos con exito.
+2020-05-17 12:36:15.859 - Impresora: Fin de la impresión.
+------ FINAL LOG  ------

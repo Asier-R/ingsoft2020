@@ -9,7 +9,7 @@ public class Log {
 
     private String log;
     private static String path_txt = "./Logs/";
-    private static StringBuilder sb = new StringBuilder("------ INICIO LOG  ------");
+    private static StringBuilder sb = new StringBuilder("------ INICIO LOG  ------"); //No presente en diseño original
 
     public Log(){
     }
@@ -35,7 +35,7 @@ public class Log {
             fw.close();
         } catch (IOException e) {
             e.printStackTrace();
-            log = "ERROR: "+e.getMessage();
+            log = "LOG: ERROR --> "+e.getMessage();
         }
 
         return log;

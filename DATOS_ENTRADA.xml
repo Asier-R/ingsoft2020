@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Pais  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  xsi:noNamespaceSchemaLocation="DATOS_ESTRUCTURA.xsd">
-	<E>0.5</E>
+	<E>2.5</E>
 	<P>2</P>
-	<V>5</V>
-	<maxDias>2</maxDias>
+	<V>50</V>
+	<maxDias>30</maxDias>
 	<Comunidades>
 		<Comunidad>
 			<nombre>Andalucia</nombre>

@@ -55,10 +55,10 @@ public class Lector {
         pais.setPorcetanje_infectados("0%");
 
         log.escribrirLog("Lector: Fin de creacion de pais dia 0.");
-        log.escribrirLog("Lector: Pais_0 poblacion total: "+pais.getPoblacion_total());
-        log.escribrirLog("Lector: Pais_0 poblacion sana: "+pais.getPoblacion_sana());
-        log.escribrirLog("Lector: Pais_0 poblacion infectada: "+pais.getPoblacion_infectada());
-        log.escribrirLog("Lector: Pais_0 porcentaje infectados: "+pais.getPorcetanje_infectados());
+        log.escribrirLog("Lector: Pais_0 poblacion total       --> "+pais.getPoblacion_total());
+        log.escribrirLog("Lector: Pais_0 poblacion sana        --> "+pais.getPoblacion_sana());
+        log.escribrirLog("Lector: Pais_0 poblacion infectada   --> "+pais.getPoblacion_infectada());
+        log.escribrirLog("Lector: Pais_0 porcentaje infectados --> "+pais.getPorcetanje_infectados());
 
     }
 
